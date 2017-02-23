@@ -62,6 +62,7 @@ yum erase ibus                ///卸载原来旧的输入法ibus
 alternatives --config xinputrc              ///配置输入法
 
 vi /etc/profile                         ///添加
+
          export GTK_IM_MODULE=fcitx  
          export XMODIFIERS="@im=fcitx"  
          export QT_IM_MODULE=fcitx  
