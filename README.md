@@ -23,7 +23,8 @@ sudo dnf install shadowsocks-qt5                        ///使用dnf更新cache�
 # 3、终端挂ss：
 sudo yum install polipo                           ///安装
 
-sudo vi /etc/polipo/config                    
+sudo vi /etc/polipo/config   
+
     socksParentProxy = "localhost:1080"
     socksProxyType = socks5                            ///设置ParentProxy为Shadowsocks端口
 
