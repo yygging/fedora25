@@ -37,11 +37,13 @@ sudo service polipo start                             ///启动和关闭
 
 
 curl ip.gs                                               ///测试本地IP
+
 http_proxy=http://localhost:8123 curl ip.gs              ///测试翻墙IP
 
 
            
 export http_proxy=http://localhost:8123              ///全局代理
+
 unset http_proxy                                     ///关闭全局
 
 
