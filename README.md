@@ -3,7 +3,7 @@ install user guide
 
 
 # 1、安装chrome：
-su root
+@@ su root
 cd /etc/yum.repos.d/                   ////添加chrome源
 
 wget  http://repo.fdzh.org/chrome/google-chrome-mirrors.repo        ///下载google-chrome.repo并保存
