@@ -3,7 +3,7 @@ install user guide
 
 
 # 1、安装chrome：
-###     su root
+su root
 cd /etc/yum.repos.d/                   ////添加chrome源
 
 wget  http://repo.fdzh.org/chrome/google-chrome-mirrors.repo        ///下载google-chrome.repo并保存
@@ -51,7 +51,7 @@ http://dl-http.senorsen.com/pub/package/linux/rpm/
 
 
 
-5安装输入法:
+# 5安装输入法:
 
 
 sudo yum install fcitx-pinyin sudo yum install fcitx-configtool sudo yum install im-chooser        ///安装fcitx
@@ -76,23 +76,23 @@ sudo mv /usr/lib/x86_64-linux-gnu/fcitx/fcitx-sogoupinyin.so /usr/lib64/fcitx/
 
 
 
-6安装screenfetch
+# 6安装screenfetch
 
 yum install screenfetch
 
 
-7安装微信
+# 7安装微信
 解压linux-x64.tar.gz , 运行 ./electronic-wechat 
 
 
-8安装deb包
+# 8安装deb包
 yum install alien
 
 alien -r XXXXX.deb
 
 
 
-9安装bumblebee
+# 9安装bumblebee
  dnf -y --nogpgcheck install http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee-nonfree/fedora25/noarch/bumblebee-nonfree-release-1.2-1.noarch.rpm
 
  dnf install bumblebee-nvidia bbswitch-dkms VirtualGL.x86_64 VirtualGL.i686 primus.x86_64 primus.i686 kernel-devel
